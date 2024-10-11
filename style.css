@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  cursor: url("data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAC6//oAAAAAAGnw+gA+bIwAADlhAABSjABQz+YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREREREREREREREVRRERERERERERERERERERVFMRERERERERERERERERFUUzEREREREREREREREREVRTMRERERERERERERERERVFMxERERERERERERERERFUUzEREREREREREREREREVRTMRERERERERERERERERVFMxERERERERERERERERFUUzEREREREREREREREREVRTMRERERERERERERERERVFMxERERERERERERERERFUUzEREREREREREREREREVRTMRERERERERERERERERVFMxERERERERERERERERFUUzERERERERERERFmEREVRTMRERERERERERERZhERVFMxERERERERERERFgYRFUUzERERERERERERERYgYVRTMRERERERERERERFmIGVFMxERERERERERFmZmZiBkUzERERERERERERYAAGYgBTMREREREREREREWYiIGIGZmYREREREREREREWZiJiZmZmZmEREREREREREWZmJiIiIAZhEREREREREREWAiJgAAZhERERERERERERYAJiZmBhEREREREREREREWAmYCZmERERERERERERERYCZmAmZhEREREREREREREWBmYWAmYRERERERERERERYGYREWAmERERERERERERESYREREWBhERERERERERERH////4////8P///+D////B////g////wf///4P///8H///+D////B////g////wf///4P///8H///+D//+fB///ng///xwf//8IP//+AH//wAD//8AB///AAP//4AAf//AAH//4AH//8AH///AD///gA///4IP//8PD///P4///w=="), auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  background-color: #111111;
+}
+header nav {
+  width: 25%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 8vh;
+}
+header nav a {
+  display: flex;
+  align-items: center;
+  height: 6vh;
+  color: #fff;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.botaoVermelho {
+  background-color: #DF0712;
+}
+
+.botaoPreto {
+  background-color: #181818;
+  border: 1px solid #fff;
+}
+
+main {
+  background-color: #181818;
+  color: #fff;
+}
+
+.caixaTitulo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+}
+.caixaTitulo h2 {
+  font-size: 40px;
+}
+
+.caixaEpisodios {
+  display: flex;
+  justify-content: center;
+}
+.caixaEpisodios section {
+  width: 30%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.caixaEpisodios section img {
+  width: 80%;
+}
+.caixaEpisodios section h3 {
+  font-size: 30px;
+  width: 90%;
+}
+.caixaEpisodios section p {
+  font-size: 22px;
+  width: 95%;
+}/*# sourceMappingURL=style.css.map */
